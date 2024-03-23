@@ -11,11 +11,9 @@ models:
       - name: order_date
         description: Date that order was placed by the customer.
       - name: cash_amount
-        description: Total amount paid in cash by the customer with "success" payment
-        status.
+        description: Total amount paid in cash by the customer with "success" payment status.
       - name: credit_amount
-        description: Total amount paid in credit by the customer with "success"
-        payment status.
+        description: Total amount paid in credit by the customer with "success" payment status.
       - name: total_amount
         description: Total amount paid by the customer with "success" payment status.
       - name: is_order_completed
